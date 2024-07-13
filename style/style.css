@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    background-color: whitesmoke;
+}
+
+.top-heading{
+    color: whitesmoke;
+}
+
+.custome-contact{
+    font-size: 18px;
+}
+
+.linkedin{
+    color: blue;
+}
+.instagram{
+    color: orangered;
+}
+
+.home-page-image{
+    border-radius: 50%;
+    width: 340px;
+    height: 450px;
+}
+
+.fname{
+    color: #0D9276;
+}
+
+.paragraph{
+    font-weight: 400;
+}
+
+.sub-heading{
+    color: #1C584C;
+    font-size: 3rem;   
+}
+
+.discription{
+    text-transform: capitalize;
+    color: #40A2D8;
+}
+
+ #about{
+    height: 100vh;
+}
+
+.mail{
+    color: white;
+}
+.mail:hover{
+    text-decoration: underline;
+}
+
+.skills-container{
+    width: 800px;
+}
+
+.about-image{
+    width: 150px;
+    height: auto;
+}
+
+.list ul{
+    display: flex;
+}
+
+.list li{
+    list-style: none;
+    margin-left: 10px;
+    color: whitesmoke;
+}
+
+
+#projects{
+    height: 100vh;
+    margin-top: 6rem;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    color: white;
+}
+
+.card-img{
+    border-radius: 5px;
+}
+
+@media (max-width: 991px){
+       .nav-item a{
+        font-size: 25px;
+       }
+       .dropdown-menu a{
+        font-size: 22px;
+       }
+       #about{
+        height: max-content;
+        margin-bottom: 1rem;
+       }
+       #projects{
+        height: max-content;
+        margin-top: 6rem;
+    }
+}

@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+#Files to be ignored by git hub
+file3.txt
+file4.txt
+=======
+# Ignore VS Code settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+
+# Ignore compiled files
+*.min.js
+*.min.css
+>>>>>>> 76af75e (README file)
